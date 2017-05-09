@@ -1,0 +1,77 @@
+.header a {
+    text-decoration: none;
+    color: #084882;
+}
+
+body {
+    background-color: rgba(5, 120, 173, 0.77);
+    background-image: url('../img/QRHAEO.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.site-name {
+    font-size: 18pt;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+}
+ul {
+    list-style-type:none;
+}
+.header .item {
+    display: inline;
+    padding-top: 1%;
+    cursor: pointer;
+    height: 150px;
+    border-right: 1px solid #1986cc;
+    padding-bottom: 1%;
+    margin-top: 65px;
+    border-left: 1px solid #1986cc;
+    position: relative;
+    top: 6px;
+    margin-right: -5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header .item:hover {
+    background-color:rgba(0, 112, 255, 0.39);
+}
+
+.header .item a {
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+.left-menu a {
+    font-size: 15pt;
+
+}
+
+.header ul {
+    text-align: center;
+    height: 49px;
+    background-color: rgba(24, 135, 216, 0.36);
+    vertical-align: bottom;
+    top: 50px;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+li .item {
+    height: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+.content {
+    margin-top: 100px;
+    height:1000px;
+}
+
