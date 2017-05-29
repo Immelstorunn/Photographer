@@ -121,3 +121,13 @@ p {
     color: #8630f5;
     text-shadow: 1px 1px 3px black;    
 }
+
+img {
+    height: 200px;
+}
+
+img:hover {
+    height: 300px;
+    z-index: 5;
+    align-items: center;
+}
